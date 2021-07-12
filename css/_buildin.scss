@@ -45,4 +45,51 @@
 
 .buildin__disc {
     padding: 10%;
+    color: #2C4058;
+
+    .buildin__uppertext {
+        font-size: 24px;
+        font-weight: 500;
+        padding: 5px 0;
+    }
+
+    .buildin__text {
+        font-size: 40px;
+        font-weight: 600;
+
+    }
+
+    .buildin__lowertext {
+        font-size: 20px;
+        padding: 30px 0;
+        line-height: 30px;
+    }
+
+    .buildin__button {
+        padding: 18px 42px;
+        background-color: white;
+        box-shadow: -1px -1px 0px 0px rgba(34, 60, 80, 1);
+        border: 1px solid rgba(34, 60, 80, 1);
+        color: #2C4058;
+
+    }
+
+    .buildin__button:hover {
+        background-color: #223C50;
+        box-shadow: -1px -1px 0px 0px #223C50;
+        border: 1px solid #223C50;
+        color: white;
+    }
+
+    .buildin__adres {
+        font-size: 17px;
+        font-style: italic;
+        margin: 30px 0;
+
+        .buildin__point {
+            width: 17px;
+            height: auto;
+            margin-right: 5px;
+        }
+    }
 }

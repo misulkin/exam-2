@@ -1,0 +1,99 @@
+.news {
+    background-image: url('../img/newsbg.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+
+    .news__line {
+        width: 100px;
+        border-bottom: 2px solid white;
+        margin: 0 auto;
+        padding-top: 8%;
+    }
+
+    .news__title {
+        font-size: 44px;
+        font-weight: 500;
+        color: white;
+        text-align: center;
+        margin: 22px 0 5% 0;
+    }
+
+    .news__sliderwrap {
+        margin: 3.5% 10%;
+
+        .news__slider {
+            position: relative;
+
+            .slick-arrow {
+                position: absolute;
+                top: 50%;
+                z-index: 10;
+                font-size: 0;
+
+                &.slick-prev {
+                    left: 0;
+                }
+
+                &.slick-next {
+                    right: 0;
+                }
+            }
+
+            .news__slider-item {
+                width: 180px;
+                margin: 18px;
+                background-color: white;
+
+                .news__img {
+                    width: 100%;
+                    height: auto;
+
+                    img {
+                        width: 100%;
+                        height: auto;
+                    }
+                }
+
+                .news__wrap {
+                    margin: 20px;
+
+                    .news__cardtitle {
+                        color: #2C4058;
+                        font-size: 24px;
+                        font-weight: 600;
+                        line-height: 30px;
+                    }
+
+                    .news__carddis {
+                        color: #4B5562;
+                        font-size: 18px;
+                        margin: 10px 0 15px 0;
+                        line-height: 28px;
+                    }
+
+                    .news__author {
+                        display: flex;
+                        flex-direction: row;
+
+                        .news__authorinfo {
+                            margin-left: 10px;
+                            margin-top: 4px;
+
+                            .news__authorname {
+                                font-size: 20px;
+                            }
+
+                            .news__date {
+                                color: #55B7FF;
+                                margin-top: 4px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

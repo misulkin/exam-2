@@ -4,3 +4,14 @@ $(document).ready(function () {
         dots: true
     });
 });
+
+$(document).ready(function () {
+    $('.news__slider').slick({
+        arrows: true,
+        dots: true,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        autoplay: true,
+        autoplaySpeed: 2000,
+    })
+})
