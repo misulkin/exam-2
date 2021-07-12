@@ -1,0 +1,48 @@
+.buildins {
+    margin: 10% 0;
+}
+
+.buildin {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10%;
+
+
+    .buildin__leftimage {
+        width: 40%;
+
+        .buildin__imgfirst {
+            box-shadow: -200px -70px 0px 0px #55B7FF;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .buildin__rightimage {
+        width: 40%;
+
+        .buildin__imgsecond {
+            box-shadow: 200px -70px 0px 0px #7E5AFF;
+
+            img {
+                width: 100%;
+            }
+        }
+    }
+
+    .buildin__righttext {
+        width: 35%;
+    }
+
+    .buildin__lefttext {
+        width: 35%;
+    }
+}
+
+.buildin__disc {
+    padding: 10%;
+}
