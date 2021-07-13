@@ -536,4 +536,123 @@ i {
   color: #55B7FF;
   margin-top: 4px;
 }
+
+.gallery .gallery__line {
+  width: 100px;
+  border-bottom: 2px solid #2C4058;
+  margin: 0 auto;
+  margin: 6.5% auto 2% auto;
+}
+
+.gallery .gallery__title {
+  margin: 0 auto;
+  font-size: 46px;
+  font-weight: 600;
+  text-align: center;
+  color: #2C4058;
+}
+
+.gallery .gallery__card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin-top: 5%;
+}
+
+.gallery .gallery__card .gallery__leftside {
+  width: 34.3%;
+}
+
+.gallery .gallery__card .gallery__leftside img {
+  width: 100%;
+}
+
+.gallery .gallery__card .gallery__rightside {
+  width: 35%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__upper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__upper .gallery__img {
+  width: 50%;
+  margin-bottom: 1%;
+  margin-left: 2%;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__upper .gallery__img img {
+  width: 100%;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__lower {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  width: 100%;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__lower .gallery__img {
+  width: 50%;
+  margin-top: 1%;
+  margin-left: 2%;
+}
+
+.gallery .gallery__card .gallery__rightside .gallery__lower .gallery__img img {
+  width: 100%;
+}
+
+.gallery .gallery__button {
+  display: block;
+  margin: 3% auto 3% auto;
+  padding: 14px 46px;
+  background-color: white;
+  border: 1px solid #223c50;
+  color: #2C4058;
+  text-align: center;
+}
+
+.gallery .gallery__button:hover {
+  background-color: #223C50;
+  border: 1px solid #223C50;
+  color: white;
+}
+
+#map {
+  height: 600px;
+  /* The height is 400 pixels */
+  width: 100%;
+  /* The width is the width of the web page */
+}
 /*# sourceMappingURL=main.css.map */

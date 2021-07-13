@@ -15,3 +15,14 @@ $(document).ready(function () {
         autoplaySpeed: 2000,
     })
 })
+let map;
+
+function initMap() {
+    map = new google.maps.Map(document.getElementById("map"), {
+        center: {
+            lat: 35.698,
+            lng: 139.744
+        },
+        zoom: 10,
+    });
+}

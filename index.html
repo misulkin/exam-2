@@ -12,6 +12,7 @@
     <script src="https://code.jquery.com/jquery-3.6.0.min.js
     "></script>
     <script src="js/slick.min.js"></script>
+    <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
     <script src="js/script.js"></script>
 </head>
 
@@ -124,7 +125,41 @@
                                     searching
                                     for</p>
                                 <div class="news__author">
-                                    <div class="news__authorimg"><img src="img/autfir.png" alt=""></div>
+                                    <div class="news__authorimg"><img src="img/autfir.png" alt="fir"></div>
+                                    <div class="news__authorinfo">
+                                        <p class="news__authorname">ISAAC DUNN</p>
+                                        <p class="news__date">09 Feb 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__img"><img src="img/newssecond.png" alt="news"></div>
+                            <div class="news__wrap">
+                                <h4 class="news__cardtitle">SEE THE UNMATCHED BEAUTY OF THE GREAT</h4>
+                                <p class="news__carddis">Free directories:directories are perfect for costumers that
+                                    are..
+                                    searching
+                                    for</p>
+                                <div class="news__author">
+                                    <div class="news__authorimg"><img src="img/autsec.png" alt="sec"></div>
+                                    <div class="news__authorinfo">
+                                        <p class="news__authorname">DOMINIK FREEMAN</p>
+                                        <p class="news__date">24 Apr 2017</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="news__slider-item">
+                            <div class="news__img"><img src="img/newsthird.png" alt="news"></div>
+                            <div class="news__wrap">
+                                <h4 class="news__cardtitle">SEE THE UNMATCHED BEAUTY OF THE GREAT</h4>
+                                <p class="news__carddis">Free directories:directories are perfect for costumers that
+                                    are..
+                                    searching
+                                    for</p>
+                                <div class="news__author">
+                                    <div class="news__authorimg"><img src="img/autthi.png" alt="third"></div>
                                     <div class="news__authorinfo">
                                         <p class="news__authorname">ISAAC DUNN</p>
                                         <p class="news__date">09 Feb 2017</p>
@@ -150,7 +185,7 @@
                             </div>
                         </div>
                         <div class="news__slider-item">
-                            <div class="news__img"><img src="img/newsfirst.png" alt="news"></div>
+                            <div class="news__img"><img src="img/newssecond.png" alt="news"></div>
                             <div class="news__wrap">
                                 <h4 class="news__cardtitle">SEE THE UNMATCHED BEAUTY OF THE GREAT</h4>
                                 <p class="news__carddis">Free directories:directories are perfect for costumers that
@@ -158,41 +193,7 @@
                                     searching
                                     for</p>
                                 <div class="news__author">
-                                    <div class="news__authorimg"><img src="img/autfir.png" alt=""></div>
-                                    <div class="news__authorinfo">
-                                        <p class="news__authorname">ISAAC DUNN</p>
-                                        <p class="news__date">09 Feb 2017</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news__slider-item">
-                            <div class="news__img"><img src="img/newsfirst.png" alt="news"></div>
-                            <div class="news__wrap">
-                                <h4 class="news__cardtitle">SEE THE UNMATCHED BEAUTY OF THE GREAT</h4>
-                                <p class="news__carddis">Free directories:directories are perfect for costumers that
-                                    are..
-                                    searching
-                                    for</p>
-                                <div class="news__author">
-                                    <div class="news__authorimg"><img src="img/autfir.png" alt=""></div>
-                                    <div class="news__authorinfo">
-                                        <p class="news__authorname">ISAAC DUNN</p>
-                                        <p class="news__date">09 Feb 2017</p>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="news__slider-item">
-                            <div class="news__img"><img src="img/newsfirst.png" alt="news"></div>
-                            <div class="news__wrap">
-                                <h4 class="news__cardtitle">SEE THE UNMATCHED BEAUTY OF THE GREAT</h4>
-                                <p class="news__carddis">Free directories:directories are perfect for costumers that
-                                    are..
-                                    searching
-                                    for</p>
-                                <div class="news__author">
-                                    <div class="news__authorimg"><img src="img/autfir.png" alt=""></div>
+                                    <div class="news__authorimg"><img src="img/autsec.png" alt=""></div>
                                     <div class="news__authorinfo">
                                         <p class="news__authorname">ISAAC DUNN</p>
                                         <p class="news__date">09 Feb 2017</p>
@@ -205,10 +206,34 @@
                 </div>
 
             </section>
+            <section class="gallery">
+                <div class="gallery__line"></div>
+                <h3 class="gallery__title">GALLERY</h3>
+                <div class="gallery__card">
+                    <div class="gallery__leftside"><img src="img/gallerymain.png" alt="mainphoto"></div>
+                    <div class="gallery__rightside">
+                        <div class="gallery__upper">
+                            <div class="gallery__img"><img src="img/gallery1.png" alt=""></div>
+                            <div class="gallery__img"><img src="img/gallery3.png" alt=""></div>
+                        </div>
+                        <div class="gallery__lower">
+                            <div class="gallery__img"><img src="img/gallery2.png" alt=""></div>
+                            <div class="gallery__img"><img src="img/gallery4.png" alt=""></div>
+                        </div>
+
+                    </div>
+                </div>
+                <button class="gallery__button">SEE MORE</button>
+            </section>
+            <section class="mapform">
+                <div id="map"></div>
+            </section>
         </main>
         <footer></footer>
 
     </div>
+    <script src="https://maps.googleapis.com/maps/api/js?d03ea7839aff7f53&callback=initMap&libraries=&v=weekly" async>
+    </script>
 </body>
 
 </html>
